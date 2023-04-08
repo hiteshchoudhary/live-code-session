@@ -1,0 +1,21 @@
+{
+  "name": "live-code-session",
+  "version": "1.0.0",
+  "description": "a backend for ecomm app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "course"
+  ],
+  "author": "hitesh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
