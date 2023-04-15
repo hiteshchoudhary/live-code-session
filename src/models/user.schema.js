@@ -50,6 +50,7 @@ userSchema.methods = {
         })
     },
     //generate forgot password token
+    
     generateForgotPasswordToken: function (){
         const forgotToken = crypto.randomBytes(20).toString("hex")
 
