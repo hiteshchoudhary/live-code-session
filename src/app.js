@@ -6,7 +6,7 @@ import routes from "./routes/index.js"
 const app = express()
 
 app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 app.use(cookieParser())
 
@@ -14,6 +14,11 @@ app.use("/api/v1/", routes)
 
 app.get("/", (_req, res) => {
     res.send("Hello there hitesh - API")
+})
+
+
+app.get("/test", (_req, res) => {
+    res.send("Testing api of get request!");
 })
 
 
